@@ -1,0 +1,8 @@
+{
+  "name": "diasmart-mevn",
+  "template": "Default",
+  "isConfigured": {
+    "client": false,
+    "server": false
+  }
+}
