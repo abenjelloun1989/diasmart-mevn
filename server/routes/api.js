@@ -1,10 +1,12 @@
 const express = require('express');
-const path = require('path');
+
+const {
+  findData,
+} = require('../controllers/food_controller.js');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'views', 'index.html'));
-});
+router
+  .get('/food', findData);
 
 module.exports = router;
