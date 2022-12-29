@@ -2,7 +2,7 @@
   "name": "diasmart-mevn",
   "template": "Default",
   "isConfigured": {
-    "client": false,
+    "client": true,
     "server": true
   }
 }
